@@ -1,0 +1,96 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://media.istockphoto.com/id/962500712/video/4k-tl-cloudy-sky-with-sun-rays.jpg?s=640x640&k=20&c=XQrz-Y4FIzovVlayePLhPZpHoM8-iLN7gZ_uSdnoe-8=');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Container Box */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+/* Form Input */
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+/* Submit Button */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Error Message */
+.error-message {
+    color: red;
+    text-align: center;
+}
+
+/* Weather Info Section */
+.weather-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.left, .right {
+    flex: 1;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.icon img {
+    max-width: 100px;
+    height: auto;
+}
+
+.description p {
+    font-size: 1.2em;
+}
+
+/* Heading Colors */
+h2 {
+    font-size: 2em;
+    color: #fff;
+}
+
+h3, h4 {
+    color: #ddd;
+}
