@@ -15,8 +15,7 @@ This is a simple weather forecast web application built using **Django** and the
 
 > 🖼️ Enter a city name like `London`, `New York`, or `Hyderabad` and get the current weather instantly.
 
-![Weather App Screenshot](screenshot.png)  
-<sub>*Include a screenshot of your app here*</sub>
+![image](https://github.com/user-attachments/assets/a40b7a97-4021-4f9c-9391-b31384cf5d61)
 
 ---
 
