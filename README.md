@@ -55,3 +55,65 @@ pip install -r requirements.txt
 # Run the server
 python manage.py runserver
 
+```
+
+Then open your browser and go to:
+👉 http://127.0.0.1:8000
+
+## 🔑 API Setup
+
+You’ll need an API key from OpenWeatherMap to fetch weather data.
+
+Sign up and get your free API key.
+
+In your Django project settings or views, set the API key as an environment variable or add it in a secure way like using python-decouple.
+
+Example using python-decouple in settings.py:
+
+```bash
+# from decouple import config
+WEATHER_API_KEY = config('WEATHER_API_KEY')
+
+# Then in your .env file:
+WEATHER_API_KEY=your_api_key_here
+
+```
+
+## 📁 Project Structure
+
+```bush 
+Weather-website/
+│
+├── weather/                # Django app
+│   ├── templates/
+│   │   └── weather.html    # Main frontend page
+│   ├── static/             # Static files (CSS, images)
+│   └── views.py            # Weather view logic
+│
+├── WeatherWebsite/         # Project configuration
+│   └── settings.py         # Django settings
+│
+├── manage.py               # Django entry point
+├── requirements.txt        # Dependencies
+└── README.md               # This file
+
+```
+## 🧑‍💻 Author
+Tarun Kumar Reddy Yaramala
+
+Check out the [🔗 GitHub](https://github.com/Tarunkumarreddyyaramala/)
+
+## 📄 License
+This repository is open source and available under the MIT License.
+
+## Happy Coding!
+😄 Thanks! Happy coding to you too! 💻✨
+
+If you need help with anything—code, docs, deployment—I'm here. 🚀
+
+Now go build something awesome! 🛠️💡
+
+
+
+
+
