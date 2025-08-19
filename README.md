@@ -97,10 +97,13 @@ Weather-website/
 └── README.md               # This file
 
 ```
-## 🧑‍💻 Author
-Tarun Kumar Reddy Yaramala
+## 📬 Contact
 
-Check out the [🔗 GitHub](https://github.com/Tarunkumarreddyyaramala/)
+### 👤 Tarunkumar Reddy Yaramala
+#### [![Gmail](https://img.shields.io/badge/Gmail-red?logo=gmail&logoColor=white)](mailto:tharunkumarreddyyaramala@gmail.com)
+#### [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/Tarunkumarreddyyaramala)  
+#### [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tarunkumar-reddy-yaramala/) 
+
 
 ## 📄 License
 This repository is open source and available under the MIT License.
